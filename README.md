@@ -6,7 +6,7 @@ YouTube Playlist Fetcher is yet again another library that fetched a playlist an
 ```js
 const yfetcher = require('@mahomuri/yt-playlist-fetcher');
 
-ytfetcher('YouTube API Key, 'Playlist ID')
+ytfetcher('YouTube API Key', 'Playlist ID')
 .then(playlistItems => {
     console.log(playlistItems.length);
     console.log(playlistItems);
